@@ -1,0 +1,85 @@
+/* Contrast check
+#E9D16F: https://webaim.org/resources/contrastchecker/?fcolor=E9D16F&bcolor=43474A
+ */
+
+body
+{
+    background-color: #43474A;
+}
+
+h1, h2, h3
+{
+    color: #D9989E;
+    font-family: "Handlee";
+    font-weight: bold;
+    font-style: normal;
+}
+
+p
+{
+    color: #E9D16F;
+}
+
+a
+{
+    color: #E9D16F;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.lisbnHeader
+{
+    display: flex;
+    align-items: center;
+    height: 8vh;
+}
+
+.lisbnHeader > a, .lisbnHeader > a > img
+{
+    height: 100%;
+}
+
+li::marker
+{
+    color: #E9D16F;
+}
+
+.bottom-bar, .copyright
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bottom-bar
+{
+    height: 8vh;
+}
+
+.bottom-bar > a
+{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.bottom-bar > a > img
+{
+    height: 100%;
+}
+
+.copyright
+{
+    flex-direction: column;
+    color: #E9D16F;
+}
+
+.latin
+{
+    font-family: "Cinzel";
+}
+
+svg > text
+{
+    font-family: "Handlee";
+}
