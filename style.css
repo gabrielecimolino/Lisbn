@@ -53,6 +53,7 @@ li::marker
 
 .bottom-bar
 {
+    padding-top: 4vh;
     height: 8vh;
 }
 
@@ -82,4 +83,12 @@ li::marker
 svg > text
 {
     font-family: "Handlee";
+}
+
+iframe
+{
+    position: relative;
+    width: 62vw;
+    height: 35vw;
+    left: 19vw;
 }
